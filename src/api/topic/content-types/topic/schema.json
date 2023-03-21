@@ -40,12 +40,6 @@
       },
       "type": "text"
     },
-    "module": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::module.module",
-      "inversedBy": "topics"
-    },
     "banner": {
       "type": "media",
       "multiple": true,
@@ -66,6 +60,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::article.article",
+      "inversedBy": "topics"
+    },
+    "module": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::module.module",
       "inversedBy": "topics"
     }
   }
