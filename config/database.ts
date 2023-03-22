@@ -3,7 +3,9 @@ import path from "path";
 export default ({ env }) => {
   const client = env("DATABASE_CLIENT", "sqlite");
 
-  const ca = env("DATABASE_SSL_CA", undefined).replace(/\\n/g, "\n");
+  let ca = env("DATABASE_SSL_CA", undefined);
+
+  if (ca != null) ca = ca.replace(/\\n/g, "\n");
 
   const connections = {
     mysql: {
