@@ -71,6 +71,22 @@
       "relation": "manyToMany",
       "target": "api::topic.topic",
       "mappedBy": "articles"
+    },
+    "mediaUrl": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "imageAltText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

@@ -67,6 +67,22 @@
       "relation": "manyToOne",
       "target": "api::module.module",
       "inversedBy": "topics"
+    },
+    "icon": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "mediaUrl": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
