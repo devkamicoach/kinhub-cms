@@ -4,10 +4,10 @@ import { Context } from 'koa';
 
 export default factories.createCoreController('api::article.article', {
   async createBulkArticles(ctx: Context) {
-    const { body } = ctx.request;
+    const { body } = ctx.request as any
     await strapi.db.query('api::article.article').createMany(body)
 
-    const entries = await Promise.all(body?.data.map(async (article) => {
+    const entries = await Promise.all(body?.data?.map(async (article) => {
       console.log(article.topics)
        await strapi.db.query('api::article.article').update({
         where: {slug: article.slug},
