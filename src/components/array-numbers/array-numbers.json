@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_array_numbers_array_numbers",
+  "info": {
+    "displayName": "Number",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articleId": {
+      "type": "integer"
+    }
+  }
+}

@@ -20,6 +20,7 @@
     "@types/koa-bodyparser": "^4.3.10",
     "pg": "8.8.0",
     "strapi-plugin-content-manager": "^3.6.11",
+    "strapi-plugin-multi-select": "^1.1.0",
     "strapi-sdk-javascript": "^0.3.3"
   },
   "author": {

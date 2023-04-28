@@ -30,7 +30,8 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "required": true
     },
     "description": {
       "pluginOptions": {
@@ -83,6 +84,12 @@
         }
       },
       "type": "string"
+    },
+    "experts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::expert.expert",
+      "inversedBy": "topics"
     }
   }
 }

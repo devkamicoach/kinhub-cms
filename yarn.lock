@@ -3833,6 +3833,7 @@ co@^4.6.0:
   integrity sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==
 
 "codemirror5@npm:codemirror@^5.65.11", codemirror@^5.61.0:
+  name codemirror5
   version "5.65.12"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.65.12.tgz#294fdf097d10ac5b56a9e011a91eff252afc73ae"
   integrity sha512-z2jlHBocElRnPYysN2HAuhXbO3DNB0bcSKmNz3hcWR2Js2Dkhc1bEOxG93Z3DeUrnm+qx56XOY5wQmbP5KY0sw==
@@ -9789,6 +9790,11 @@ strapi-plugin-content-manager@^3.6.11:
     strapi-helper-plugin "3.6.11"
     strapi-utils "3.6.11"
     yup "^0.32.9"
+
+strapi-plugin-multi-select@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-multi-select/-/strapi-plugin-multi-select-1.1.0.tgz#80085ed81b789dc76901bf8cc172de561131afd7"
+  integrity sha512-h8Ar/BwOyjjBd9xPWtmNC/qrcaUNRtmy9Upkr8BOTY5rg3gvkWgVHhaW/YMB7gENUU8esBHoImb4WdrO4NuNOA==
 
 strapi-sdk-javascript@^0.3.3:
   version "0.3.3"

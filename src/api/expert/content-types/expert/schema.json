@@ -1,0 +1,119 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experts",
+  "info": {
+    "singularName": "expert",
+    "pluralName": "experts",
+    "displayName": "Expert",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "jobTitle": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "expertise": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings",
+      "max": 5,
+      "required": true
+    },
+    "credentials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings",
+      "max": 7,
+      "required": true
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::topic.topic",
+      "mappedBy": "experts"
+    },
+    "specialtyTitle": {
+      "type": "string",
+      "required": false
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Gender-Neutral",
+        "Non-conforming",
+        "Non Binary",
+        "Agender",
+        "Bigender",
+        "Trans man",
+        "Trans woman",
+        "Rather not say"
+      ]
+    },
+    "modules": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::module.module",
+      "inversedBy": "experts"
+    },
+    "specialtyDescription": {
+      "type": "richtext"
+    },
+    "bio": {
+      "type": "richtext",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "experts"
+    },
+    "Pronouns": {
+      "type": "enumeration",
+      "enum": [
+        "He/Him",
+        "She/Her",
+        "They/They",
+        "Rather not say"
+      ],
+      "required": true
+    },
+    "test": {
+      "type": "json"
+    },
+    "videoIntro": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

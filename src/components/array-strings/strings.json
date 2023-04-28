@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_expertise_strings",
+  "info": {
+    "displayName": "string",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}

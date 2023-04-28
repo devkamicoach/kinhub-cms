@@ -61,6 +61,12 @@
       "relation": "oneToMany",
       "target": "api::topic.topic",
       "mappedBy": "module"
+    },
+    "experts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::expert.expert",
+      "mappedBy": "modules"
     }
   }
 }
