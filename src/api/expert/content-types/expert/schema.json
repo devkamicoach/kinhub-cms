@@ -105,15 +105,13 @@
       ],
       "required": true
     },
-    "test": {
-      "type": "json"
-    },
     "videoIntro": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
