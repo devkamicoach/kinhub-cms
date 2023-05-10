@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_array_review_arrays",
+  "info": {
+    "displayName": "reviewArray",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "review": {
+      "type": "text"
+    },
+    "reviewer": {
+      "type": "string"
+    }
+  }
+}

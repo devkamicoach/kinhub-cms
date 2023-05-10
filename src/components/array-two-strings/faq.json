@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_array_two_strings_faqs",
+  "info": {
+    "displayName": "faq",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

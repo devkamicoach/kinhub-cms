@@ -55,7 +55,8 @@
     "languages": {
       "type": "component",
       "repeatable": true,
-      "component": "array-strings.strings"
+      "component": "array-strings.strings",
+      "required": true
     },
     "gender": {
       "type": "enumeration",
@@ -70,7 +71,8 @@
         "Trans man",
         "Trans woman",
         "Rather not say"
-      ]
+      ],
+      "required": true
     },
     "modules": {
       "type": "relation",
@@ -112,6 +114,29 @@
       "allowedTypes": [
         "videos"
       ]
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-two-strings.faq",
+      "max": 3
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-two-strings.review-array",
+      "max": 2
     }
   }
 }
