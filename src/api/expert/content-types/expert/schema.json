@@ -80,9 +80,6 @@
       "target": "api::module.module",
       "inversedBy": "experts"
     },
-    "specialtyDescription": {
-      "type": "richtext"
-    },
     "bio": {
       "type": "richtext",
       "required": true
@@ -137,6 +134,11 @@
       "repeatable": true,
       "component": "array-two-strings.review-array",
       "max": 2
+    },
+    "additionalSpecialties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings"
     }
   }
 }
