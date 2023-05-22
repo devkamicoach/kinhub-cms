@@ -139,6 +139,12 @@
       "type": "component",
       "repeatable": true,
       "component": "array-strings.strings"
+    },
+    "programme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::programme.programme",
+      "mappedBy": "expert"
     }
   }
 }

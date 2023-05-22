@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_action_step_action_steps",
+  "info": {
+    "displayName": "actionStep",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 250,
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Session",
+        "Reflection",
+        "Content"
+      ],
+      "required": true
+    },
+    "outcome": {
+      "type": "text"
+    },
+    "timeEstimate": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

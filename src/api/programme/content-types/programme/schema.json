@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programmes",
+  "info": {
+    "singularName": "programme",
+    "pluralName": "programmes",
+    "displayName": "Programme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 150,
+      "required": true
+    },
+    "overview": {
+      "type": "text",
+      "required": true
+    },
+    "coachingSessions": {
+      "type": "integer",
+      "required": true,
+      "max": 3,
+      "default": 3
+    },
+    "arrangement": {
+      "type": "enumeration",
+      "enum": [
+        "Online",
+        "On-Site"
+      ],
+      "required": true
+    },
+    "takeThisIfAsked": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings",
+      "max": 5,
+      "min": 3,
+      "required": true
+    },
+    "expectations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings",
+      "required": true,
+      "max": 5,
+      "min": 3
+    },
+    "numberActionSteps": {
+      "type": "integer",
+      "required": true
+    },
+    "reviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-two-strings.review-array"
+    },
+    "actionSteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "action-step.action-step",
+      "required": true,
+      "max": 5,
+      "min": 5
+    },
+    "expert": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::expert.expert",
+      "inversedBy": "programme"
+    },
+    "programmeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "actionStepsDynamic": {
+      "type": "dynamiczone",
+      "components": [
+        "action-step.action-step"
+      ]
+    }
+  }
+}
