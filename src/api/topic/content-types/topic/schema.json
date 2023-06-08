@@ -95,7 +95,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::programme.programme",
-      "inversedBy": "topics"
+      "mappedBy": "topics"
     }
   }
 }
