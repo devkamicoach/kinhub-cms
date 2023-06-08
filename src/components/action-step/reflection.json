@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_programme_reflection_reflections",
+  "info": {
+    "displayName": "reflection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "timeEstimate": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

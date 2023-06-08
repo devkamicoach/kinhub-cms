@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_action_step_sessions",
+  "info": {
+    "displayName": "session",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "outcome": {
+      "type": "text",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "timeEstimate": {
+      "type": "string"
+    }
+  }
+}

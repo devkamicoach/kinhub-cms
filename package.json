@@ -12,6 +12,9 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@ckeditor/ckeditor5-markdown-gfm": "^38.0.1",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@strapi/plugin-content-manager": "^4.9.0",
     "@strapi/plugin-i18n": "4.8.1",
     "@strapi/plugin-users-permissions": "4.8.1",
@@ -19,7 +22,6 @@
     "@types/koa": "^2.13.6",
     "@types/koa-bodyparser": "^4.3.10",
     "pg": "8.8.0",
-    "strapi-plugin-content-manager": "^3.6.11",
     "strapi-plugin-multi-select": "^1.1.0",
     "strapi-sdk-javascript": "^0.3.3"
   },

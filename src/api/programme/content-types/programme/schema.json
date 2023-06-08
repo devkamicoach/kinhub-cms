@@ -64,14 +64,6 @@
       "repeatable": true,
       "component": "array-two-strings.review-array"
     },
-    "actionSteps": {
-      "type": "component",
-      "repeatable": true,
-      "component": "action-step.action-step",
-      "required": true,
-      "max": 5,
-      "min": 5
-    },
     "expert": {
       "type": "relation",
       "relation": "oneToOne",
@@ -94,11 +86,14 @@
       "targetField": "title",
       "required": true
     },
-    "actionStepsDynamic": {
+    "actionSteps": {
       "type": "dynamiczone",
       "components": [
-        "action-step.action-step"
-      ]
+        "action-step.session",
+        "action-step.reflection",
+        "action-step.content"
+      ],
+      "required": true
     }
   }
 }

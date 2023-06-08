@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_action_step_contents",
+  "info": {
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "timeEstimate": {
+      "type": "string",
+      "required": true
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bodyContent": {
+      "type": "richtext"
+    },
+    "contentBeforeMedia": {
+      "type": "richtext"
+    }
+  }
+}
