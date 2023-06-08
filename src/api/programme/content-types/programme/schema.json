@@ -97,8 +97,9 @@
     },
     "topics": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::topic.topic"
+      "relation": "manyToMany",
+      "target": "api::topic.topic",
+      "inversedBy": "programmes"
     }
   }
 }

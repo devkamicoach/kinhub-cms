@@ -90,6 +90,12 @@
       "relation": "manyToMany",
       "target": "api::expert.expert",
       "inversedBy": "topics"
+    },
+    "programmes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::programme.programme",
+      "inversedBy": "topics"
     }
   }
 }
