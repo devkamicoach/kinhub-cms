@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_array_two_strings_range_values",
+  "info": {
+    "displayName": "rangeValues"
+  },
+  "options": {},
+  "attributes": {
+    "lowValue": {
+      "type": "string"
+    },
+    "highValue": {
+      "type": "string"
+    }
+  }
+}

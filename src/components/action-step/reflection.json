@@ -14,12 +14,6 @@
       "type": "text",
       "required": true
     },
-    "questions": {
-      "type": "component",
-      "repeatable": true,
-      "component": "array-strings.strings",
-      "required": true
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -31,6 +25,18 @@
     "timeEstimate": {
       "type": "string",
       "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "string-enumeration.string-and-enumeration",
+      "required": true
+    },
+    "intendedOutcome": {
+      "type": "text"
+    },
+    "stepSummary": {
+      "type": "text"
     }
   }
 }

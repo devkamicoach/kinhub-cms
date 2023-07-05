@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_string_enumeration_string_and_enumerations",
+  "info": {
+    "displayName": "StringAndEnumeration",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "questionType": {
+      "type": "enumeration",
+      "enum": [
+        "numberRange",
+        "emojiRange",
+        "input"
+      ]
+    },
+    "lowRange": {
+      "type": "string",
+      "required": false
+    },
+    "highRange": {
+      "type": "string"
+    }
+  }
+}

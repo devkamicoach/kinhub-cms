@@ -28,6 +28,12 @@
     },
     "timeEstimate": {
       "type": "string"
+    },
+    "intendedOutcome": {
+      "type": "text"
+    },
+    "stepSummary": {
+      "type": "text"
     }
   }
 }
