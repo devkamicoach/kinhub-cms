@@ -7,7 +7,8 @@
   "options": {},
   "attributes": {
     "question": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "questionType": {
       "type": "enumeration",
@@ -15,7 +16,8 @@
         "numberRange",
         "emojiRange",
         "input"
-      ]
+      ],
+      "required": true
     },
     "lowRange": {
       "type": "string",
@@ -23,6 +25,10 @@
     },
     "highRange": {
       "type": "string"
+    },
+    "required": {
+      "type": "boolean",
+      "required": true
     }
   }
 }
