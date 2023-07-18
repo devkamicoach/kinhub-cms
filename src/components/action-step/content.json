@@ -24,7 +24,7 @@
     },
     "timeEstimate": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "articles": {
       "type": "relation",

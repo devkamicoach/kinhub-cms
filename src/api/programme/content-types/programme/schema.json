@@ -18,7 +18,6 @@
     },
     "description": {
       "type": "text",
-      "maxLength": 150,
       "required": true
     },
     "overview": {
@@ -28,7 +27,7 @@
     "coachingSessions": {
       "type": "integer",
       "required": true,
-      "max": 3,
+      "max": 6,
       "default": 3
     },
     "arrangement": {
