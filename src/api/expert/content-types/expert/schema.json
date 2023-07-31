@@ -140,9 +140,9 @@
       "repeatable": true,
       "component": "array-strings.strings"
     },
-    "programme": {
+    "programmes": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::programme.programme",
       "mappedBy": "expert"
     }

@@ -65,9 +65,9 @@
     },
     "expert": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "api::expert.expert",
-      "inversedBy": "programme"
+      "inversedBy": "programmes"
     },
     "programmeImage": {
       "type": "media",
