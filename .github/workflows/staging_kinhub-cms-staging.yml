@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'kinhub-cms-staging'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7A25C0E40B704D32AC3ACB8F00E0E4E8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_STAGING }}
           package: .
