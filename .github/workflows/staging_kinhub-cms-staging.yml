@@ -61,7 +61,9 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
+          # In the future this should point to the same app service 
           app-name: 'kinhub-cms-staging'
-          slot-name: 'Staging'
+          # Can change this to staging deployment slot in the future 
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_STAGING }}
           package: .
