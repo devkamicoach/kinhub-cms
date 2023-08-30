@@ -99,6 +99,10 @@
       "relation": "manyToMany",
       "target": "api::topic.topic",
       "inversedBy": "programmes"
+    },
+    "isDemo": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
