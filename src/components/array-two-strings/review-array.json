@@ -11,6 +11,14 @@
     },
     "reviewer": {
       "type": "string"
+    },
+    "stars": {
+      "type": "integer",
+      "required": true
+    },
+    "reviewDate": {
+      "type": "date",
+      "required": true
     }
   }
 }

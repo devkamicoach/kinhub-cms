@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_array_two_strings_array_images",
+  "info": {
+    "displayName": "Array-images"
+  },
+  "options": {},
+  "attributes": {
+    "institutionImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "institutionLink": {
+      "type": "string"
+    }
+  }
+}
