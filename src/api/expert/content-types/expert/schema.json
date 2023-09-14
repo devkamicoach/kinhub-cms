@@ -132,8 +132,7 @@
     "reviews": {
       "type": "component",
       "repeatable": true,
-      "component": "array-two-strings.review-array",
-      "max": 2
+      "component": "array-two-strings.review-array"
     },
     "additionalSpecialties": {
       "type": "component",
@@ -149,6 +148,25 @@
     "isDemo": {
       "type": "boolean",
       "default": false
+    },
+    "overview": {
+      "type": "text",
+      "required": true,
+      "maxLength": 120
+    },
+    "institutions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-two-strings.array-images",
+      "max": 8
+    },
+    "sessionExpectations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-two-strings.session-expectations",
+      "required": true,
+      "min": 1,
+      "max": 2
     }
   }
 }

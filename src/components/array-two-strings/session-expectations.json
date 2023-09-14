@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_array_two_strings_session_expectations",
+  "info": {
+    "displayName": "sessionExpectations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sessionDuration": {
+      "type": "enumeration",
+      "enum": [
+        "Thirty minute session",
+        "Sixty minute session"
+      ],
+      "required": true
+    },
+    "expectation": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
