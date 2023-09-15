@@ -167,6 +167,11 @@
       "required": true,
       "min": 1,
       "max": 2
+    },
+    "mainSpecialties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings"
     }
   }
 }
