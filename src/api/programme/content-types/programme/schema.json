@@ -106,7 +106,7 @@
     },
     "ageRange": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "array-numbers.two-numbers",
       "required": true
     }
