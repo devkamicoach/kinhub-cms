@@ -103,6 +103,12 @@
     "isDemo": {
       "type": "boolean",
       "default": false
+    },
+    "ageRange": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-numbers.two-numbers",
+      "required": true
     }
   }
 }
