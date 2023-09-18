@@ -14,7 +14,8 @@
     },
     "stars": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "max": 5
     },
     "reviewDate": {
       "type": "date",
