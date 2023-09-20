@@ -172,6 +172,12 @@
       "type": "component",
       "repeatable": true,
       "component": "array-strings.strings"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article",
+      "inversedBy": "expert"
     }
   }
 }
