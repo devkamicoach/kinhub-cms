@@ -167,6 +167,17 @@
       "required": true,
       "min": 1,
       "max": 2
+    },
+    "mainSpecialties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array-strings.strings"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article",
+      "inversedBy": "expert"
     }
   }
 }

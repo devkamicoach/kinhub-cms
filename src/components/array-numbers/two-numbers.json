@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_array_numbers_two_numbers",
+  "info": {
+    "displayName": "ageRange",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lowAge": {
+      "type": "integer",
+      "min": 18,
+      "required": true
+    },
+    "highAge": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
