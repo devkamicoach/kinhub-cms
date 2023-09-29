@@ -151,7 +151,7 @@
     },
     "overview": {
       "type": "text",
-      "required": true,
+      "required": false,
       "maxLength": 120
     },
     "institutions": {
@@ -164,8 +164,7 @@
       "type": "component",
       "repeatable": true,
       "component": "array-two-strings.session-expectations",
-      "required": true,
-      "min": 1,
+      "required": false,
       "max": 2
     },
     "mainSpecialties": {
