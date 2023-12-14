@@ -177,6 +177,9 @@
       "relation": "oneToOne",
       "target": "api::article.article",
       "inversedBy": "expert"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
