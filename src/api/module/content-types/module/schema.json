@@ -54,7 +54,8 @@
           "localized": true
         }
       },
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "topics": {
       "type": "relation",
