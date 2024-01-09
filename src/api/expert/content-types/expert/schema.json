@@ -134,7 +134,7 @@
       "repeatable": true,
       "component": "array-two-strings.review-array"
     },
-    "additionalSpecialties": {
+    "iAlsoHaveExperienceIn": {
       "type": "component",
       "repeatable": true,
       "component": "array-strings.strings"
@@ -167,7 +167,7 @@
       "required": false,
       "max": 2
     },
-    "mainSpecialties": {
+    "askMeAbout": {
       "type": "component",
       "repeatable": true,
       "component": "array-strings.strings"
