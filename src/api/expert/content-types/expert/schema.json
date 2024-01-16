@@ -154,7 +154,7 @@
       "required": false,
       "maxLength": 120
     },
-    "institutions": {
+    "institutionsSupported": {
       "type": "component",
       "repeatable": true,
       "component": "array-two-strings.array-images",
