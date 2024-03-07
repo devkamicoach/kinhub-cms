@@ -46,7 +46,7 @@
     "banner": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
@@ -80,7 +80,7 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "text"
     },
     "imageAltText": {
       "pluginOptions": {
@@ -111,7 +111,7 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "text"
     },
     "tags": {
       "type": "relation",
