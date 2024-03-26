@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Products"
+    "displayName": "Products",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,22 +13,26 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
       "type": "string",
       "required": true
     },
-    "price": {
-      "type": "string"
-    },
     "tokens": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "features": {
       "type": "component",
       "repeatable": true,
-      "component": "array-strings.strings"
+      "component": "array-strings.strings",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
     }
   }
 }
