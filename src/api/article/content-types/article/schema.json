@@ -154,7 +154,7 @@
         "video",
         "audio"
       ],
-      "default": "article"
+      "required": true
     }
   }
 }
