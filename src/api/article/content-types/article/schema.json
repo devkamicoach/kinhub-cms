@@ -141,6 +141,20 @@
       "relation": "oneToOne",
       "target": "api::expert.expert",
       "inversedBy": "article"
+    },
+    "articleType": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "article",
+        "video",
+        "audio"
+      ],
+      "default": "article"
     }
   }
 }
