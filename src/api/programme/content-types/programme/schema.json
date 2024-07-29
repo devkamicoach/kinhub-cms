@@ -109,6 +109,11 @@
       "repeatable": false,
       "component": "array-numbers.two-numbers",
       "required": true
+    },
+    "managerOnly": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

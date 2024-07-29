@@ -176,10 +176,14 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::article.article",
-      "inversedBy": "expert"
+      "mappedBy": "expert"
     },
     "title": {
       "type": "string"
+    },
+    "managerOnly": {
+      "type": "boolean",
+      "required": true
     }
   }
 }
