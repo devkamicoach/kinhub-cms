@@ -35,7 +35,8 @@
       "required": true
     },
     "isBoltOn": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   }
 }
