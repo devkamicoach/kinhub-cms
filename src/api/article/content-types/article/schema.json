@@ -175,6 +175,15 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "sourceUrl": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
