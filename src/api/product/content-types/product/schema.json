@@ -33,6 +33,10 @@
     "price": {
       "type": "integer",
       "required": true
+    },
+    "isBoltOn": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
