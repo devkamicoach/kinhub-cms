@@ -99,7 +99,7 @@
       "enum": [
         "He/Him",
         "She/Her",
-        "They/They",
+        "They/Them",
         "Rather not say"
       ],
       "required": true
